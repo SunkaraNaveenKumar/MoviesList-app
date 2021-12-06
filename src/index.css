@@ -1,0 +1,35 @@
+.listform{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    justify-content: center;
+}
+.nav1{
+    width: 60%;
+}
+.nav4{
+    width: 30%;
+}
+.nav1,.nav4{
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+}
+.nav2,.nav3{
+    display:block;
+    border: 1px solid black;
+}
+.nav5 ul li{
+    width: 20%;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    
+}
+.nav5 ul *{
+    text-align: center;
+    justify-content: center;
+}
